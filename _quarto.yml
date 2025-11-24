@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  page-navigation: true
+  title: "Jian Ye"
+  site-url: https://JianYe.github.io
+  favicon: a
+  repo-url: a
+  repo-actions: [edit, issue]
+  
+  page-footer:
+    left: |
+      [ ]()<br>
+    right: |
+      Made with [Quarto](https://quarto.org/)<br>
+    
+  navbar: 
+    background: "#A9CCE3"
+    search: true
+    right: 
+      - text: "Home"
+        href: index.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Codes"
+        href: codes.qmd
+      - text: "中文"
+        href: Chinese.qmd
+
+
+format:
+  html:
+    theme: styles.scss
+    toc: true            # 启用目录
+    toc-position: right  # 将目录放置在页面的右侧
+    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
