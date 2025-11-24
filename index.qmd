@@ -1,5 +1,5 @@
 ---
-title: "Jian Ye"
+title: "Jian Ye（叶剑）"
 image: images/Jian Ye_bio_photo.JPG
 about:
   id: hero-heading
