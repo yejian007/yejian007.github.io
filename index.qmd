@@ -20,12 +20,13 @@ about:
 
 ::: {#hero-heading}
 
-Jian Ye (Senior Member, IEEE) received the B.Eng. degree in electrical engineering and automation from Wuhan University, Wuhan, China, in 2012, and the M.Sc. and Ph.D. degrees in electrical engineering from Nanyang Technological University, Singapore, in 2013 and 2018, respectively. He is currently an Associate Researcher with Harbin Institute of Technology at Shenzhen, Shenzhen, China. His research interests include intelligent control for power electronics and microgrids.
+Jian Ye (Senior Member, IEEE) received the B.Eng. degree in electrical engineering and automation from Wuhan University, Wuhan, China, in 2012, and the M.Sc. and Ph.D. degrees in electrical engineering from Nanyang Technological University, Singapore, in 2013 and 2018, respectively. He is currently an Associate Researcher with Harbin Institute of Technology, Shenzhen, China. His research interests include intelligent control for power electronics and microgrids.
 
 
 ## Background
 
 - 2019 - Present: Associate Researcher, Harbin Institute of Technology, Shenzhen (HITSZ)
+- 2018-2019：Research Fellow，Energy Research Institute @ NTU (ERI@N)
 - 2014-2018: Ph.D. in Engineering, Nanyang Technological University, Singapore, specializing in Electrical Engineering
 - 2012-2013: M.Sc. in Engineering, Nanyang Technological University, Singapore, specializing in Electrical Engineering
 - 2008-2012: Bachelor of Engineering, Wuhan University, China, majoring in Electrical Engineering
