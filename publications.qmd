@@ -7,7 +7,7 @@ editor: visual
 ## Links
 
 > -   **Google Scholar**: <https://scholar.google.com/citations?user=dkkQZlgAAAAJ&hl=zh-CN>
-> -   **ORCID**: <https://orcid.org/my-orcid?orcid=0000-0002-5333-4704>
+> -   **ORCID**: <https://orcid.org/0000-0002-5333-4704>
 > -   **ResearchGate:** <https://www.researchgate.net/profile/Jian-Ye-3/research>
 :::
 
