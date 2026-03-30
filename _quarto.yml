@@ -5,7 +5,7 @@ project:
 website:
   page-navigation: true
   title: "Jian Ye"
-  site-url: https://JianYe.github.io
+  site-url: https://yejian007.github.io/
   favicon: a
   repo-url: a
   repo-actions: [edit, issue]
@@ -33,6 +33,8 @@ website:
 format:
   html:
     theme: styles.scss
+    header-includes:
+      - '<meta name="google-site-verification" content="AnqQ_Ve4_ZV96Y7eDMbu4ryAHeCvR6laqcmDYhoxFqo" />'
     toc: true            # 启用目录
     toc-position: right  # 将目录放置在页面的右侧
     toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
