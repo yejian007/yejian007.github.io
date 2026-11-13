@@ -11,7 +11,7 @@
     "href": "publications.html#selected-publications",
     "title": "Publications",
     "section": "Selected Publications",
-    "text": "Selected Publications\n\nJ. Ye, W. Xuan, Q. Guo, Y. Liu, B. Wang, X. Zhang and H. H. C. Iu, “An overview of reinforcement learning for power electronic converters: Topology derivation, parameter design, and control implementation,” Renewable and Sustainable Energy Reviews, vol. 228, Mar. 2026. -Link-\nJ. Ye, H. Guo, B. Wang and X. Zhang, “Deep Deterministic Policy Gradient Algorithm Based Reinforcement Learning Controller for Single-Inductor Multiple-Output DC–DC Converter,” IEEE Transactions on Power Electronics, vol. 39, no. 4, pp. 4078-4090, Apr. 2024. -Link-\nJ. Ye, H. Guo, D. Zhao, B. Wang and X. Zhang, “TD3 Algorithm Based Reinforcement Learning Control for Multiple-Input Multiple-Output DC–DC Converters,” IEEE Transactions on Power Electronics, vol. 39, no. 10, pp. 12729-12742, Oct. 2024. -Link-\nJ. Ye et al., “Improving Voltage Regulation of Interleaved DC–DC Boost Converter via Soft Actor–Critic Algorithm-Based Reinforcement Learning Controller,” IEEE Journal of Emerging and Selected Topics in Power Electronics, vol. 13, no. 5, pp. 5958-5969, Oct. 2025.-Link-\nJ. Ye et al., “Soft Actor-Critic Algorithm Based Reinforcement Learning Controller for Single-Inductor Dual-Output DC-DC Converter,” IEEE Journal of Emerging and Selected Topics in Industrial Electronics, vol. 6, no. 4, pp. 1478-1490, Oct. 2025.-Link-\nJ. Ye, H. B. Gooi and F. Wu, “Optimization of the Size of UPQC System Based on Data-Driven Control Design,” IEEE Transactions on Smart Grid, vol. 9, no. 4, pp. 2999-3008, Jul. 2018.\nJ. Ye, H. B. Gooi and F. Wu, “Optimal Design and Control Implementation of UPQC Based on Variable Phase Angle Control Method,” IEEE Transactions on Industrial Informatics, vol. 14, no. 7, pp. 3109-3123, Jul. 2018.\nJ. Ye, H. B. Gooi, B. Wang and X. Zhang, “A New Flexible Power Quality Conditioner With Model Predictive Control,” IEEE Transactions on Industrial Informatics, vol. 15, no. 5, pp. 2569-2579, May 2019.\nJ. Ye and H. B. Gooi, “Phase Angle Control Based Three-phase DVR with Power Factor Correction at Point of Common Coupling,” Journal of Modern Power Systems and Clean Energy, vol. 8, no. 1, pp. 179-186, Jan. 2020.\nJ. Ye, H. B. Gooi, X. Zhang and H. H. C. Iu, “Simplified Four-Level Inverter-Based Single-Phase DSTATCOM Using Model Predictive Control,” IEEE Journal of Emerging and Selected Topics in Power Electronics, vol. 8, no. 4, pp. 3382-3395, Dec. 2020."
+    "text": "Selected Publications\n\nJ. Ye, X. Sun, G. Chen, X. Pan, X. Zhang and H. H. -C. Iu, “Unified Control Strategy for Four-Switch Buck-Boost Converters Over Wide Voltage Ranges Based on Soft Actor-Critic Reinforcement Learning,” IEEE Transactions on Power Electronics, 2026. -Link-\nJ. Ye, W. Xuan, Q. Guo, Y. Liu, B. Wang, X. Zhang and H. H. C. Iu, “An overview of reinforcement learning for power electronic converters: Topology derivation, parameter design, and control implementation,” Renewable and Sustainable Energy Reviews, vol. 228, Mar. 2026. -Link-\nJ. Ye, H. Guo, B. Wang and X. Zhang, “Deep Deterministic Policy Gradient Algorithm Based Reinforcement Learning Controller for Single-Inductor Multiple-Output DC–DC Converter,” IEEE Transactions on Power Electronics, vol. 39, no. 4, pp. 4078-4090, Apr. 2024. -Link-\nJ. Ye, H. Guo, D. Zhao, B. Wang and X. Zhang, “TD3 Algorithm Based Reinforcement Learning Control for Multiple-Input Multiple-Output DC–DC Converters,” IEEE Transactions on Power Electronics, vol. 39, no. 10, pp. 12729-12742, Oct. 2024. -Link-\nJ. Ye et al., “Improving Voltage Regulation of Interleaved DC–DC Boost Converter via Soft Actor–Critic Algorithm-Based Reinforcement Learning Controller,” IEEE Journal of Emerging and Selected Topics in Power Electronics, vol. 13, no. 5, pp. 5958-5969, Oct. 2025.-Link-\nJ. Ye et al., “Soft Actor-Critic Algorithm Based Reinforcement Learning Controller for Single-Inductor Dual-Output DC-DC Converter,” IEEE Journal of Emerging and Selected Topics in Industrial Electronics, vol. 6, no. 4, pp. 1478-1490, Oct. 2025.-Link-\nJ. Ye, H. B. Gooi and F. Wu, “Optimization of the Size of UPQC System Based on Data-Driven Control Design,” IEEE Transactions on Smart Grid, vol. 9, no. 4, pp. 2999-3008, Jul. 2018.\nJ. Ye, H. B. Gooi and F. Wu, “Optimal Design and Control Implementation of UPQC Based on Variable Phase Angle Control Method,” IEEE Transactions on Industrial Informatics, vol. 14, no. 7, pp. 3109-3123, Jul. 2018.\nJ. Ye, H. B. Gooi, B. Wang and X. Zhang, “A New Flexible Power Quality Conditioner With Model Predictive Control,” IEEE Transactions on Industrial Informatics, vol. 15, no. 5, pp. 2569-2579, May 2019.\nJ. Ye and H. B. Gooi, “Phase Angle Control Based Three-phase DVR with Power Factor Correction at Point of Common Coupling,” Journal of Modern Power Systems and Clean Energy, vol. 8, no. 1, pp. 179-186, Jan. 2020.\nJ. Ye, H. B. Gooi, X. Zhang and H. H. C. Iu, “Simplified Four-Level Inverter-Based Single-Phase DSTATCOM Using Model Predictive Control,” IEEE Journal of Emerging and Selected Topics in Power Electronics, vol. 8, no. 4, pp. 3382-3395, Dec. 2020."
   },
   {
     "objectID": "CV.html",
@@ -39,14 +39,14 @@
     "href": "Chinese.html",
     "title": "中文简历",
     "section": "",
-    "text": "叶剑，男，IEEE高级会员，2012年毕业于中国武汉大学电气工程与自动化专业，2013年和2018年分别毕业于新加坡南洋理工大学电气工程专业，获电气工程硕士和博士学位。他目前在南方电网有限责任公司广州供电局。他的研究兴趣包括电力电子和微电网的智能控制。\n\n邮箱：yejian007@126.com\n电话："
+    "text": "叶剑，男，IEEE高级会员，2012年毕业于中国武汉大学电气工程与自动化专业，2013年和2018年分别毕业于新加坡南洋理工大学电气工程专业，获电气工程硕士和博士学位。他目前在南方电网有限责任公司广州供电局。他的研究兴趣包括电力电子和微电网的人工智能控制。\n\n邮箱：yejian007@126.com\n电话："
   },
   {
     "objectID": "Chinese.html#叶剑个人简介",
     "href": "Chinese.html#叶剑个人简介",
     "title": "中文简历",
     "section": "",
-    "text": "叶剑，男，IEEE高级会员，2012年毕业于中国武汉大学电气工程与自动化专业，2013年和2018年分别毕业于新加坡南洋理工大学电气工程专业，获电气工程硕士和博士学位。他目前在南方电网有限责任公司广州供电局。他的研究兴趣包括电力电子和微电网的智能控制。\n\n邮箱：yejian007@126.com\n电话："
+    "text": "叶剑，男，IEEE高级会员，2012年毕业于中国武汉大学电气工程与自动化专业，2013年和2018年分别毕业于新加坡南洋理工大学电气工程专业，获电气工程硕士和博士学位。他目前在南方电网有限责任公司广州供电局。他的研究兴趣包括电力电子和微电网的人工智能控制。\n\n邮箱：yejian007@126.com\n电话："
   },
   {
     "objectID": "Chinese.html#教育和工作背景",
@@ -60,7 +60,7 @@
     "href": "Chinese.html#荣誉",
     "title": "中文简历",
     "section": "荣誉",
-    "text": "荣誉\n\nXX科技领军高层次人才\n深圳市海外高层次人才\n深圳市鹏城优才\n电气与电子工程师协会高级会员（IEEE Senior Member）\n深圳市科创局专家库项目评审专家\n全国研究生教育评估监测专家库专家\n哈尔滨工业大学2024年优秀硕士学位论文指导教师"
+    "text": "荣誉\n\nXX领军高层次人才\n广州市A类人才\n深圳市海外高层次人才\n深圳市鹏城优才\n电气与电子工程师协会高级会员（IEEE Senior Member）\n深圳市科创局专家库项目评审专家\n全国研究生教育评估监测专家库专家\n哈尔滨工业大学2024年优秀硕士学位论文指导教师\n2026年第十二届中国国际供电会议最佳论文奖、优秀海报奖"
   },
   {
     "objectID": "about.html",
