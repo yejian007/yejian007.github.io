@@ -6,8 +6,8 @@ website:
   page-navigation: true
   title: "Jian Ye"
   site-url: https://yejian007.github.io/
-  favicon: a
-  repo-url: a
+  favicon: images/favicon.png
+  repo-url: https://github.com/yejian007/yejian007.github.io
   repo-actions: [edit, issue]
   
   page-footer:
