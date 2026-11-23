@@ -6,9 +6,9 @@ editor: visual
 ::: callout-note
 ## Links
 
-> -   **Google Scholar**: <https://scholar.google.com/citations?user=dkkQZlgAAAAJ&hl=zh-CN>
-> -   **ORCID**: <https://orcid.org/0000-0002-5333-4704>
-> -   **ResearchGate:** <https://www.researchgate.net/profile/Jian-Ye-3/research>
+> -   **Google Scholar**: [https://scholar.google.com/citations?user=dkkQZlgAAAAJ&hl=zh-CN](https://scholar.google.com/citations?user=dkkQZlgAAAAJ&hl=zh-CN){target="_blank" rel="noopener"}
+> -   **ORCID**: [https://orcid.org/0000-0002-5333-4704](https://orcid.org/0000-0002-5333-4704){target="_blank" rel="noopener"}
+> -   **ResearchGate:** [https://www.researchgate.net/profile/Jian-Ye-3/research](https://www.researchgate.net/profile/Jian-Ye-3/research){target="_blank" rel="noopener"}
 :::
 
  
