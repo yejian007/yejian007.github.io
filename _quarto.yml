@@ -33,6 +33,7 @@ website:
 format:
   html:
     theme: styles.scss
+    link-external-newwindow: true
     header-includes:
       - '<meta name="google-site-verification" content="AnqQ_Ve4_ZV96Y7eDMbu4ryAHeCvR6laqcmDYhoxFqo" />'
     toc: true            # 启用目录
