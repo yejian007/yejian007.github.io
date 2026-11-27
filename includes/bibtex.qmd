@@ -1,0 +1,199 @@
+## BibTeX
+
+Click the copy button on each entry to paste it into your reference manager.
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Unified Control Strategy for Four-Switch Buck-Boost Converters Over Wi
+
+```bibtex
+@article{ye2026unified,
+  author  = {Jian Ye and Xiaoteng Sun and Guanfan Chen and Xuewei Pan and Xinan Zhang and Herbert Ho-Ching Iu},
+  title   = {{Unified Control Strategy for Four-Switch Buck-Boost Converters Over Wide Voltage Ranges Based on Soft Actor-Critic Reinforcement Learning}},
+  journal = {IEEE Transactions on Power Electronics},
+  year    = {2026},
+  pages   = {1--18},
+  doi     = {10.1109/tpel.2026.3748770},
+  url     = {https://doi.org/10.1109/tpel.2026.3748770}
+}
+```
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## An overview of reinforcement learning for power electronic converters:
+
+```bibtex
+@article{ye2026overview,
+  author  = {Jian Ye and Weiye Xuan and Qi Guo and Yun Liu and Benfei Wang and Xinan Zhang and Herbert Ho Ching Iu},
+  title   = {{An overview of reinforcement learning for power electronic converters: Topology derivation, parameter design, and control implementation}},
+  journal = {Renewable and Sustainable Energy Reviews},
+  year    = {2026},
+  volume  = {228},
+  pages   = {116591},
+  doi     = {10.1016/j.rser.2025.116591},
+  url     = {https://doi.org/10.1016/j.rser.2025.116591}
+}
+```
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Deep Deterministic Policy Gradient Algorithm Based Reinforcement Learn
+
+```bibtex
+@article{ye2024ddpg,
+  author  = {Jian Ye and Huanyu Guo and Benfei Wang and Xinan Zhang},
+  title   = {{Deep Deterministic Policy Gradient Algorithm Based Reinforcement Learning Controller for Single-Inductor Multiple-Output DC–DC Converter}},
+  journal = {IEEE Transactions on Power Electronics},
+  year    = {2024},
+  volume  = {39},
+  number  = {4},
+  pages   = {4078--4090},
+  doi     = {10.1109/tpel.2024.3350181},
+  url     = {https://doi.org/10.1109/tpel.2024.3350181}
+}
+```
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## TD3 Algorithm Based Reinforcement Learning Control for Multiple-Input 
+
+```bibtex
+@article{ye2024td3,
+  author  = {Jian Ye and Huanyu Guo and Di Zhao and Benfei Wang and Xinan Zhang},
+  title   = {{TD3 Algorithm Based Reinforcement Learning Control for Multiple-Input Multiple-Output DC–DC Converters}},
+  journal = {IEEE Transactions on Power Electronics},
+  year    = {2024},
+  volume  = {39},
+  number  = {10},
+  pages   = {12729--12742},
+  doi     = {10.1109/tpel.2024.3416911},
+  url     = {https://doi.org/10.1109/tpel.2024.3416911}
+}
+```
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Improving Voltage Regulation of Interleaved DC–DC Boost Converter via 
+
+```bibtex
+@article{ye2025interleaved,
+  author  = {Jian Ye and Di Zhao and Xuewei Pan and Sinan Li and Benfei Wang and Xinan Zhang and Herbert Ho Ching Iu},
+  title   = {{Improving Voltage Regulation of Interleaved DC–DC Boost Converter via Soft Actor–Critic Algorithm-Based Reinforcement Learning Controller}},
+  journal = {IEEE Journal of Emerging and Selected Topics in Power Electronics},
+  year    = {2025},
+  volume  = {13},
+  number  = {5},
+  pages   = {5958--5969},
+  doi     = {10.1109/jestpe.2025.3574338},
+  url     = {https://doi.org/10.1109/jestpe.2025.3574338}
+}
+```
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Soft Actor-Critic Algorithm Based Reinforcement Learning Controller fo
+
+```bibtex
+@article{ye2025sidod,
+  author  = {Jian Ye and Di Zhao and Huanyu Guo and Rongwu Zhu and Qi Guo and Yun Liu and Benfei Wang and Xinan Zhang and Herbert Ho Ching Iu},
+  title   = {{Soft Actor-Critic Algorithm Based Reinforcement Learning Controller for Single-Inductor Dual-Output DC-DC Converter}},
+  journal = {IEEE Journal of Emerging and Selected Topics in Industrial Electronics},
+  year    = {2025},
+  volume  = {6},
+  number  = {4},
+  pages   = {1478--1490},
+  doi     = {10.1109/jestie.2025.3596982},
+  url     = {https://doi.org/10.1109/jestie.2025.3596982}
+}
+```
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Optimization of the Size of UPQC System Based on Data-Driven Control D
+
+```bibtex
+@article{ye2018upqc,
+  author  = {Jian Ye and Hoay Beng Gooi and Fengjiang Wu},
+  title   = {{Optimization of the Size of UPQC System Based on Data-Driven Control Design}},
+  journal = {IEEE Transactions on Smart Grid},
+  year    = {2018},
+  volume  = {9},
+  number  = {4},
+  pages   = {2999--3008},
+  doi     = {10.1109/tsg.2016.2624273},
+  url     = {https://doi.org/10.1109/tsg.2016.2624273}
+}
+```
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Optimal Design and Control Implementation of UPQC Based on Variable Ph
+
+```bibtex
+@article{ye2018upqcvpa,
+  author  = {Jian Ye and Hoay Beng Gooi and Fengjiang Wu},
+  title   = {{Optimal Design and Control Implementation of UPQC Based on Variable Phase Angle Control Method}},
+  journal = {IEEE Transactions on Industrial Informatics},
+  year    = {2018},
+  volume  = {14},
+  number  = {7},
+  pages   = {3109--3123},
+  doi     = {10.1109/tii.2018.2834628},
+  url     = {https://doi.org/10.1109/tii.2018.2834628}
+}
+```
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## A New Flexible Power Quality Conditioner With Model Predictive Control
+
+```bibtex
+@article{ye2019pqc,
+  author  = {Jian Ye and Hoay Beng Gooi and Benfei Wang and Xinan Zhang},
+  title   = {{A New Flexible Power Quality Conditioner With Model Predictive Control}},
+  journal = {IEEE Transactions on Industrial Informatics},
+  year    = {2019},
+  volume  = {15},
+  number  = {5},
+  pages   = {2569--2579},
+  doi     = {10.1109/tii.2018.2874159},
+  url     = {https://doi.org/10.1109/tii.2018.2874159}
+}
+```
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Phase Angle Control Based Three-phase DVR with Power Factor Correction
+
+```bibtex
+@article{ye2020dvr,
+  author  = {Jian Ye and Hoay Beng Gooi},
+  title   = {{Phase Angle Control Based Three-phase DVR with Power Factor Correction at Point of Common Coupling}},
+  journal = {Journal of Modern Power Systems and Clean Energy},
+  year    = {2020},
+  volume  = {8},
+  number  = {1},
+  pages   = {179--186},
+  doi     = {10.35833/mpce.2018.000428},
+  url     = {https://doi.org/10.35833/mpce.2018.000428}
+}
+```
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Simplified Four-Level Inverter-Based Single-Phase DSTATCOM Using Model
+
+```bibtex
+@article{ye2020dstatcom,
+  author  = {Jian Ye and Hoay Beng Gooi and Xinan Zhang and Herbert H. C. Iu},
+  title   = {{Simplified Four-Level Inverter-Based Single-Phase DSTATCOM Using Model Predictive Control}},
+  journal = {IEEE Journal of Emerging and Selected Topics in Power Electronics},
+  year    = {2020},
+  volume  = {8},
+  number  = {4},
+  pages   = {3382--3395},
+  doi     = {10.1109/jestpe.2020.2964005},
+  url     = {https://doi.org/10.1109/jestpe.2020.2964005}
+}
+```
+:::
+
