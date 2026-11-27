@@ -13,9 +13,13 @@ about:
     - icon: book
       text: Google Scholar
       href: https://scholar.google.com/citations?user=dkkQZlgAAAAJ&hl=zh-CN
+      target: _blank
+      rel: noopener
     - icon: fingerprint
       text: ORCID
       href: https://orcid.org/my-orcid?orcid=0000-0002-5333-4704
+      target: _blank
+      rel: noopener
 ---
 
 ::: {#hero-heading}
