@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -41,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2655609e4c4ce2e7dd4199da68fd4791.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-514b4b19e9d24a72632852b29f151577.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4d7ee86ef58cb05afd62495de5122c05.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -127,6 +162,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#教育和工作背景" id="toc-教育和工作背景" class="nav-link" data-scroll-target="#教育和工作背景">教育和工作背景</a></li>
   <li><a href="#荣誉" id="toc-荣誉" class="nav-link" data-scroll-target="#荣誉">荣誉</a></li>
   <li><a href="#代表性论文" id="toc-代表性论文" class="nav-link" data-scroll-target="#代表性论文">代表性论文</a></li>
+  <li><a href="#bibtex-参考文献" id="toc-bibtex-参考文献" class="nav-link" data-scroll-target="#bibtex-参考文献">BibTeX 参考文献</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/yejian007/yejian007.github.io/edit/main/Chinese.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/yejian007/yejian007.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -188,18 +224,305 @@ ul.task-list li input[type="checkbox"] {
 <section id="代表性论文" class="level2">
 <h2 class="anchored" data-anchor-id="代表性论文">代表性论文</h2>
 <ul>
-<li><strong>J. Ye</strong>, X. Sun, G. Chen, X. Pan, X. Zhang and H. H. -C. Iu, “Unified Control Strategy for Four-Switch Buck-Boost Converters Over Wide Voltage Ranges Based on Soft Actor-Critic Reinforcement Learning,” IEEE Transactions on Power Electronics, 2026. <a href="https://ieeexplore.ieee.org/abstract/document/11763507" target="_blank" rel="noopener">-Link-</a></li>
-<li><strong>J. Ye</strong>, W. Xuan, Q. Guo, Y. Liu, B. Wang, X. Zhang and H. H. C. Iu, “An overview of reinforcement learning for power electronic converters: Topology derivation, parameter design, and control implementation,” Renewable and Sustainable Energy Reviews, vol.&nbsp;228, Mar.&nbsp;2026. <a href="https://www.sciencedirect.com/science/article/pii/S136403212501264X?dgcid=author" target="_blank" rel="noopener">-Link-</a></li>
-<li><strong>J. Ye</strong>, H. Guo, B. Wang and X. Zhang, “Deep Deterministic Policy Gradient Algorithm Based Reinforcement Learning Controller for Single-Inductor Multiple-Output DC–DC Converter,” IEEE Transactions on Power Electronics, vol.&nbsp;39, no. 4, pp.&nbsp;4078-4090, Apr.&nbsp;2024. <a href="https://ieeexplore.ieee.org/abstract/document/10381868" target="_blank" rel="noopener">-Link-</a></li>
-<li><strong>J. Ye</strong>, H. Guo, D. Zhao, B. Wang and X. Zhang, “TD3 Algorithm Based Reinforcement Learning Control for Multiple-Input Multiple-Output DC–DC Converters,” IEEE Transactions on Power Electronics, vol.&nbsp;39, no. 10, pp.&nbsp;12729-12742, Oct.&nbsp;2024. <a href="https://ieeexplore.ieee.org/abstract/document/10564013" target="_blank" rel="noopener">-Link-</a></li>
-<li><strong>J. Ye</strong> et al., “Improving Voltage Regulation of Interleaved DC–DC Boost Converter via Soft Actor–Critic Algorithm-Based Reinforcement Learning Controller,” IEEE Journal of Emerging and Selected Topics in Power Electronics, vol.&nbsp;13, no. 5, pp.&nbsp;5958-5969, Oct.&nbsp;2025.<a href="https://ieeexplore.ieee.org/document/11016762" target="_blank" rel="noopener">-Link-</a></li>
-<li><strong>J. Ye</strong> et al., “Soft Actor-Critic Algorithm Based Reinforcement Learning Controller for Single-Inductor Dual-Output DC-DC Converter,” IEEE Journal of Emerging and Selected Topics in Industrial Electronics, vol.&nbsp;6, no. 4, pp.&nbsp;1478-1490, Oct.&nbsp;2025.<a href="https://ieeexplore.ieee.org/document/11119762" target="_blank" rel="noopener">-Link-</a></li>
-<li><strong>J. Ye</strong>, H. B. Gooi and F. Wu, “Optimization of the Size of UPQC System Based on Data-Driven Control Design,” IEEE Transactions on Smart Grid, vol.&nbsp;9, no. 4, pp.&nbsp;2999-3008, Jul.&nbsp;2018.</li>
-<li><strong>J. Ye</strong>, H. B. Gooi and F. Wu, “Optimal Design and Control Implementation of UPQC Based on Variable Phase Angle Control Method,” IEEE Transactions on Industrial Informatics, vol.&nbsp;14, no. 7, pp.&nbsp;3109-3123, Jul.&nbsp;2018.</li>
-<li><strong>J. Ye</strong>, H. B. Gooi, B. Wang and X. Zhang, “A New Flexible Power Quality Conditioner With Model Predictive Control,” IEEE Transactions on Industrial Informatics, vol.&nbsp;15, no. 5, pp.&nbsp;2569-2579, May 2019.</li>
-<li><strong>J. Ye</strong> and H. B. Gooi, “Phase Angle Control Based Three-phase DVR with Power Factor Correction at Point of Common Coupling,” Journal of Modern Power Systems and Clean Energy, vol.&nbsp;8, no. 1, pp.&nbsp;179-186, Jan.&nbsp;2020.</li>
-<li><strong>J. Ye</strong>, H. B. Gooi, X. Zhang and H. H. C. Iu, “Simplified Four-Level Inverter-Based Single-Phase DSTATCOM Using Model Predictive Control,” IEEE Journal of Emerging and Selected Topics in Power Electronics, vol.&nbsp;8, no. 4, pp.&nbsp;3382-3395, Dec.&nbsp;2020.</li>
+<li><strong>J. Ye</strong>, X. Sun, G. Chen, X. Pan, X. Zhang and H. H. -C. Iu, “Unified Control Strategy for Four-Switch Buck-Boost Converters Over Wide Voltage Ranges Based on Soft Actor-Critic Reinforcement Learning,” IEEE Transactions on Power Electronics, 2026. <a href="https://ieeexplore.ieee.org/abstract/document/11763507" target="_blank" rel="noopener">Link</a> <a href="https://doi.org/10.1109/tpel.2026.3748770" target="_blank" rel="noopener">DOI</a></li>
+<li><strong>J. Ye</strong>, W. Xuan, Q. Guo, Y. Liu, B. Wang, X. Zhang and H. H. C. Iu, “An overview of reinforcement learning for power electronic converters: Topology derivation, parameter design, and control implementation,” Renewable and Sustainable Energy Reviews, vol.&nbsp;228, Mar.&nbsp;2026. <a href="https://www.sciencedirect.com/science/article/pii/S136403212501264X?dgcid=author" target="_blank" rel="noopener">Link</a> <a href="https://doi.org/10.1016/j.rser.2025.116591" target="_blank" rel="noopener">DOI</a></li>
+<li><strong>J. Ye</strong>, H. Guo, B. Wang and X. Zhang, “Deep Deterministic Policy Gradient Algorithm Based Reinforcement Learning Controller for Single-Inductor Multiple-Output DC–DC Converter,” IEEE Transactions on Power Electronics, vol.&nbsp;39, no. 4, pp.&nbsp;4078-4090, Apr.&nbsp;2024. <a href="https://ieeexplore.ieee.org/abstract/document/10381868" target="_blank" rel="noopener">Link</a> <a href="https://doi.org/10.1109/tpel.2024.3350181" target="_blank" rel="noopener">DOI</a></li>
+<li><strong>J. Ye</strong>, H. Guo, D. Zhao, B. Wang and X. Zhang, “TD3 Algorithm Based Reinforcement Learning Control for Multiple-Input Multiple-Output DC–DC Converters,” IEEE Transactions on Power Electronics, vol.&nbsp;39, no. 10, pp.&nbsp;12729-12742, Oct.&nbsp;2024. <a href="https://ieeexplore.ieee.org/abstract/document/10564013" target="_blank" rel="noopener">Link</a> <a href="https://doi.org/10.1109/tpel.2024.3416911" target="_blank" rel="noopener">DOI</a></li>
+<li><strong>J. Ye</strong> et al., “Improving Voltage Regulation of Interleaved DC–DC Boost Converter via Soft Actor–Critic Algorithm-Based Reinforcement Learning Controller,” IEEE Journal of Emerging and Selected Topics in Power Electronics, vol.&nbsp;13, no. 5, pp.&nbsp;5958-5969, Oct.&nbsp;2025. <a href="https://ieeexplore.ieee.org/document/11016762" target="_blank" rel="noopener">Link</a> <a href="https://doi.org/10.1109/jestpe.2025.3574338" target="_blank" rel="noopener">DOI</a></li>
+<li><strong>J. Ye</strong> et al., “Soft Actor-Critic Algorithm Based Reinforcement Learning Controller for Single-Inductor Dual-Output DC-DC Converter,” IEEE Journal of Emerging and Selected Topics in Industrial Electronics, vol.&nbsp;6, no. 4, pp.&nbsp;1478-1490, Oct.&nbsp;2025. <a href="https://ieeexplore.ieee.org/document/11119762" target="_blank" rel="noopener">Link</a> <a href="https://doi.org/10.1109/jestie.2025.3596982" target="_blank" rel="noopener">DOI</a></li>
+<li><strong>J. Ye</strong>, H. B. Gooi and F. Wu, “Optimization of the Size of UPQC System Based on Data-Driven Control Design,” IEEE Transactions on Smart Grid, vol.&nbsp;9, no. 4, pp.&nbsp;2999-3008, Jul.&nbsp;2018. <a href="https://doi.org/10.1109/tsg.2016.2624273" target="_blank" rel="noopener">DOI</a></li>
+<li><strong>J. Ye</strong>, H. B. Gooi and F. Wu, “Optimal Design and Control Implementation of UPQC Based on Variable Phase Angle Control Method,” IEEE Transactions on Industrial Informatics, vol.&nbsp;14, no. 7, pp.&nbsp;3109-3123, Jul.&nbsp;2018. <a href="https://doi.org/10.1109/tii.2018.2834628" target="_blank" rel="noopener">DOI</a></li>
+<li><strong>J. Ye</strong>, H. B. Gooi, B. Wang and X. Zhang, “A New Flexible Power Quality Conditioner With Model Predictive Control,” IEEE Transactions on Industrial Informatics, vol.&nbsp;15, no. 5, pp.&nbsp;2569-2579, May 2019. <a href="https://doi.org/10.1109/tii.2018.2874159" target="_blank" rel="noopener">DOI</a></li>
+<li><strong>J. Ye</strong> and H. B. Gooi, “Phase Angle Control Based Three-phase DVR with Power Factor Correction at Point of Common Coupling,” Journal of Modern Power Systems and Clean Energy, vol.&nbsp;8, no. 1, pp.&nbsp;179-186, Jan.&nbsp;2020. <a href="https://doi.org/10.35833/mpce.2018.000428" target="_blank" rel="noopener">DOI</a></li>
+<li><strong>J. Ye</strong>, H. B. Gooi, X. Zhang and H. H. C. Iu, “Simplified Four-Level Inverter-Based Single-Phase DSTATCOM Using Model Predictive Control,” IEEE Journal of Emerging and Selected Topics in Power Electronics, vol.&nbsp;8, no. 4, pp.&nbsp;3382-3395, Dec.&nbsp;2020. <a href="https://doi.org/10.1109/jestpe.2020.2964005" target="_blank" rel="noopener">DOI</a></li>
 </ul>
+</section>
+<section id="bibtex-参考文献" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex-参考文献">BibTeX 参考文献</h2>
+<p>点击每条右侧的复制按钮，可将 BibTeX 粘贴到文献管理软件。</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Unified Control Strategy for Four-Switch Buck-Boost Converters Over Wi
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2026unified</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Xiaoteng Sun and Guanfan Chen and Xuewei Pan and Xinan Zhang and Herbert Ho-Ching Iu},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{Unified Control Strategy for Four-Switch Buck-Boost Converters Over Wide Voltage Ranges Based on Soft Actor-Critic Reinforcement Learning}},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {IEEE Transactions on Power Electronics},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2026},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {1--18},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.1109/tpel.2026.3748770},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.1109/tpel.2026.3748770}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>An overview of reinforcement learning for power electronic converters:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2026overview</span>,</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Weiye Xuan and Qi Guo and Yun Liu and Benfei Wang and Xinan Zhang and Herbert Ho Ching Iu},</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{An overview of reinforcement learning for power electronic converters: Topology derivation, parameter design, and control implementation}},</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {Renewable and Sustainable Energy Reviews},</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2026},</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>  = {228},</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {116591},</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.1016/j.rser.2025.116591},</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.1016/j.rser.2025.116591}</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Deep Deterministic Policy Gradient Algorithm Based Reinforcement Learn
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2024ddpg</span>,</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Huanyu Guo and Benfei Wang and Xinan Zhang},</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{Deep Deterministic Policy Gradient Algorithm Based Reinforcement Learning Controller for Single-Inductor Multiple-Output DC–DC Converter}},</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {IEEE Transactions on Power Electronics},</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2024},</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>  = {39},</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>  = {4},</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {4078--4090},</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.1109/tpel.2024.3350181},</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.1109/tpel.2024.3350181}</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>TD3 Algorithm Based Reinforcement Learning Control for Multiple-Input
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2024td3</span>,</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Huanyu Guo and Di Zhao and Benfei Wang and Xinan Zhang},</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{TD3 Algorithm Based Reinforcement Learning Control for Multiple-Input Multiple-Output DC–DC Converters}},</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {IEEE Transactions on Power Electronics},</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2024},</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>  = {39},</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>  = {10},</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {12729--12742},</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.1109/tpel.2024.3416911},</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.1109/tpel.2024.3416911}</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Improving Voltage Regulation of Interleaved DC–DC Boost Converter via
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2025interleaved</span>,</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Di Zhao and Xuewei Pan and Sinan Li and Benfei Wang and Xinan Zhang and Herbert Ho Ching Iu},</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{Improving Voltage Regulation of Interleaved DC–DC Boost Converter via Soft Actor–Critic Algorithm-Based Reinforcement Learning Controller}},</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {IEEE Journal of Emerging and Selected Topics in Power Electronics},</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2025},</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>  = {13},</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>  = {5},</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {5958--5969},</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.1109/jestpe.2025.3574338},</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.1109/jestpe.2025.3574338}</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Soft Actor-Critic Algorithm Based Reinforcement Learning Controller fo
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2025sidod</span>,</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Di Zhao and Huanyu Guo and Rongwu Zhu and Qi Guo and Yun Liu and Benfei Wang and Xinan Zhang and Herbert Ho Ching Iu},</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{Soft Actor-Critic Algorithm Based Reinforcement Learning Controller for Single-Inductor Dual-Output DC-DC Converter}},</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {IEEE Journal of Emerging and Selected Topics in Industrial Electronics},</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2025},</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>  = {6},</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>  = {4},</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {1478--1490},</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.1109/jestie.2025.3596982},</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.1109/jestie.2025.3596982}</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Optimization of the Size of UPQC System Based on Data-Driven Control D
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2018upqc</span>,</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Hoay Beng Gooi and Fengjiang Wu},</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{Optimization of the Size of UPQC System Based on Data-Driven Control Design}},</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {IEEE Transactions on Smart Grid},</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2018},</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>  = {9},</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>  = {4},</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {2999--3008},</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.1109/tsg.2016.2624273},</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.1109/tsg.2016.2624273}</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Optimal Design and Control Implementation of UPQC Based on Variable Ph
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2018upqcvpa</span>,</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Hoay Beng Gooi and Fengjiang Wu},</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{Optimal Design and Control Implementation of UPQC Based on Variable Phase Angle Control Method}},</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {IEEE Transactions on Industrial Informatics},</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2018},</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>  = {14},</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>  = {7},</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {3109--3123},</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.1109/tii.2018.2834628},</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.1109/tii.2018.2834628}</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>A New Flexible Power Quality Conditioner With Model Predictive Control
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2019pqc</span>,</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Hoay Beng Gooi and Benfei Wang and Xinan Zhang},</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{A New Flexible Power Quality Conditioner With Model Predictive Control}},</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {IEEE Transactions on Industrial Informatics},</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2019},</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>  = {15},</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>  = {5},</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {2569--2579},</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.1109/tii.2018.2874159},</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.1109/tii.2018.2874159}</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Phase Angle Control Based Three-phase DVR with Power Factor Correction
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2020dvr</span>,</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Hoay Beng Gooi},</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{Phase Angle Control Based Three-phase DVR with Power Factor Correction at Point of Common Coupling}},</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {Journal of Modern Power Systems and Clean Energy},</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2020},</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>  = {8},</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>  = {1},</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {179--186},</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.35833/mpce.2018.000428},</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.35833/mpce.2018.000428}</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Simplified Four-Level Inverter-Based Single-Phase DSTATCOM Using Model
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">ye2020dstatcom</span>,</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>  = {Jian Ye and Hoay Beng Gooi and Xinan Zhang and Herbert H. C. Iu},</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>   = {{Simplified Four-Level Inverter-Based Single-Phase DSTATCOM Using Model Predictive Control}},</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span> = {IEEE Journal of Emerging and Selected Topics in Power Electronics},</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>    = {2020},</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>  = {8},</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>  = {4},</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>   = {3382--3395},</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>     = {10.1109/jestpe.2020.2964005},</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span>     = {https://doi.org/10.1109/jestpe.2020.2964005}</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
+</div>
 
 
 </section>
